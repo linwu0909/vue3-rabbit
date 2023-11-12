@@ -6,10 +6,7 @@ import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
 
-import { getCategory } from '@/api/testAPI'
-getCategory().then((res) => {
-  console.log(res)
-})
+import '@/style/common.scss'
 
 const app = createApp(App)
 
