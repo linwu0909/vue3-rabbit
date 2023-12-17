@@ -11,7 +11,7 @@ import HeaderCart from './HeaderCart.vue'
 //   categoryList.value = res.result
 // }
 // // 封装请求
-import { useCategoryStore } from '@/stores/category'
+import { useCategoryStore } from '@/stores/categoryStore'
 
 // // 使用pinia中的数据
 const categoryStore = useCategoryStore()

@@ -36,7 +36,7 @@ httpInstance.interceptors.response.use(
     })
     // console.log('222')
     debugger
-    e.response.status = 401
+    // e.response.status = 401
     if (e.response.status === 401) {
       userStore.clearUserInfo()
       router.push('/login')

@@ -9,6 +9,7 @@ export function useBanner() {
       distributionSite: '2'
     })
     console.log(res)
+    debugger
     bannerList.value = res.result
   }
 
